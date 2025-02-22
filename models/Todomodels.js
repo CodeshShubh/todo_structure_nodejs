@@ -6,7 +6,14 @@ const todoSchema = mongoose.Schema
     text: {
         type:String,
         require:true
-    }
+    },
+    // viewHistory:[{
+    //     Date:{
+    //         type:String
+    //     },
+
+
+    // }]
 },{timestamps:true}) 
 
 const Todo = mongoose.model('Todo', todo)
